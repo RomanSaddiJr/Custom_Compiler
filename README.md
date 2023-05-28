@@ -18,6 +18,38 @@ This custom compiler, developed using Python 3, showcases the power and versatil
 ## Contents:
 This repository contains the files:
 
+**'requirements.txt':**
+This files contains the necessary libraries to be installed.
+
+**'src -> main.py':** driver code of the program
+
+**'src -> settingUp.py':** removes comments and unecessary lines for grammar checking.
+
+**'src -> create_table.py':** creates the predictive parsing table
+
+**'src -> grammar.py':** reads the programming language input file and runs it through a predictive parsing table for grammar checking.
+
+**'src -> check_arithmetic.py':** checks the arithmetic in the programming language input file. 
+
+**'src -> errors.py':** performs error checking and gives error handling messages.
+
+**'src -> convertPython.py':** assuming the program input file grammar is valid and no errors were found, converts the language into python3.
+
+**'src -> output.py':** the output python file
+
+**'src -> finalp1.txt':** the custom program 
+
+**'src -> finalp2.txt':** the custom program after running "settingUp.py"
+
+**'src -> math.txt':** the math found in the custom program
+
+**'src -> parsing_table.txt':** the predictive parsing table that is created from create_table.py
+
+# How to run:
+First, write your custom program using the given grammar into the file "finalp1.txt". Then, simply run "main.py" and follow the instructions on the console.
+
+
+
 
 
 
